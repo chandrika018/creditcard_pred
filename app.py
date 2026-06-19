@@ -5,7 +5,7 @@ import numpy as np
 
 # Load model and scaler
 model = joblib.load("model.pkl")
-scaler = joblib.load("scaler.pkl")
+scaler = joblib.load("Scaler.pkl")
 
 # Page Config
 st.set_page_config(
